@@ -11,3 +11,10 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+# Created Divide functions in utils.py
+
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
+
